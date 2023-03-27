@@ -102,8 +102,8 @@ public class Guia3_BackEndWithJava1 {
          System.out.println("Opcion 1: SUMAR");
          System.out.println("Opcion 2: RESTAR");
          System.out.println("Opcion 3: MULTIPLICAR");
-         System.out.println("Opcion 1: DIVIDIR");
-         System.out.println("Opcion 1: SALIR");
+         System.out.println("Opcion 4: DIVIDIR");
+         System.out.println("Opcion 5: SALIR");
          eleccion=read.nextInt();
             switch(eleccion){
                 case 1:
@@ -139,15 +139,17 @@ public class Guia3_BackEndWithJava1 {
         String cadena;
         int sumaC;
         int sumaI;
+        int ff;
         sumaC=0;
         sumaI=0;
         do {
              System.out.println("Ingrese la cadena");
              cadena=read.next();
+             ff=cadena.length();
              if (cadena.equals("&&&&&")) {
                 break;
             }
-             if (cadena.length()==5 && cadena.substring(0, 1).equals("x") && cadena.substring(4, 5).equals("o") ) {
+             if (cadena.length()==5 && cadena.substring(0, 1).equals("x") && cadena.substring(ff-1, ff).equals("o") ) {
                  System.out.println("correcto");
                  sumaC=sumaC + 1;
                  
@@ -199,6 +201,7 @@ public class Guia3_BackEndWithJava1 {
         
         
         
+         
         
         
         

@@ -26,7 +26,6 @@ public class Guia4_BackEndWIthJava1_TeoriaEjer {
         String convertida;
         convertida = recorredorConvertidor(frase);
         System.out.println("La frase codificada es: " + convertida);
- 	
 	}
 
 	

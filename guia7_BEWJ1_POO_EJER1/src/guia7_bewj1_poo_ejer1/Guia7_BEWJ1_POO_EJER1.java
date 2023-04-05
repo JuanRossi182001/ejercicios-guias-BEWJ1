@@ -22,16 +22,7 @@ public class Guia7_BEWJ1_POO_EJER1 {
         
         libro1.CargarLibro(); // aca utilizo la funcion cargar libro para cargar lo q necesita por teclado
         libro1.informarLibro(); // aca utilizo la funcion q creer informar libro para q muestre lo cargado por la funcion anterior
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+   
         // TODO code application logic here
     }
     
